@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-total {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: right;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-top: 2rem;
+}
+
+.Product {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* align horizontal */
+  align-items: flex-start; /* align vertical */
+}
+
+.ProductFilter {
+  margin-bottom: 3rem;
+}
+
+.ProductName {
+  font-style: italic;
+  font-size: large;
+}
+
+.ProductPrice {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.ProductPicture {
+  border-style: solid;
+  border: 2px;
+  border-color: indigo;
+}
+
+.ProductDescription {
+  text-align: right;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between; /* align horizontal */
+  margin-left: 2rem;
+  min-width: 500px;
+  min-height: 150px;
+}
+
+.ProductOperation {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+.MainOperations {
+  display: flex;
+
+}

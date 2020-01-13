@@ -1,0 +1,20 @@
+{
+  "name": "product_listing",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "cd server && node -r esm server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.16.4",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  },
+  "license": "MIT"
+}
